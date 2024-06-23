@@ -19,7 +19,7 @@ mongoclient
     console.log("mongodb connect ok");
     mydb = client.db("myboard");
     app.listen(8080, () => {
-      console.log("8080 server is ready...");
+      console.log("8080 server is ready!!!");
     });
   })
   .catch((err) => {
